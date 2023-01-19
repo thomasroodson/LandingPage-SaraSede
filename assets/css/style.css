@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body{
+  background-color: #0C0C0D !important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+#topo-content{
+  background-image: url('../img/topo_background.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#topo-content h1{
+  color:#fff;
+  font-weight: bold;
+  font-size: 4.5rem;
+  line-height: 3.7rem;
+}
+#topo-content .row{
+  height: 60vh;
+}
+.outline{
+  opacity: 0.2;
+  color: transparent !important;
+  -webkit-text-stroke-color: #ccc;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ebook{
+  width: 200px;
+  position: absolute;
+  top: 30px;
+  right: 100px;
+}
+.text {
+  position: absolute;
+  color: #fff;
+  right: 50px;
+  font-size: 2rem;
+}
+.ebook-content p{
+  text-align: justify;
+  color:#fff;
+  line-height: 18px;
+}
+.ebook-content h2{
+  color: #fff;
+}
+.ebook-content a {
+  color: #fff !important;
+  font-weight: 600;
+  background-color: #E71207;
+  border-color: #E71207;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0;
+}.ebook-content a:hover{
+  background-color:#E71207;
+  border-color: #E71207;
+  opacity: 0.9;
+} 
+.button{
+  cursor: pointer;
+  height: 47px !important;
+}
+.button p{
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.doacao-content p {
+  color: #fff;
+  font-size:1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.doacao-content button {
+  background-color: #E71207;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0;
+  border-color: #E71207;
+}
+.doacao-content button:hover {
+  background-color: #E71207;
+  border-color: #E71207;
+  opacity: 0.9;
+}
+.doacao-content a{
+  color: #fff !important;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.doacao-content a:hover{
+  text-decoration: none;
+}

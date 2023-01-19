@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />  
+  <title>Deus quer te dar um começo!</title>
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("m_R83baXS6KCWRhqc");
+    })();
+  </script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+</head>
+<body>
+  <header id="topo-content">
+    <div class="container">
+      <div class="row">
+        <div class="ebook d-none d-md-block">
+          <span class="text">#ebook</span>
+          <img class="img-fluid" src="./assets/img/Camada.png" />
+        </div>
+        <div class="col-md-8 mt-5 pt-5 mx-auto text-center">
+          <h1 class="text-uppercase">Deus quer te dar um começo!</h1>
+          <h1 class="text-uppercase outline pt-2 d-none d-md-block">Deus quer te dar um começo!</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="ebook-content my-5 py-5">
+    <div class="container wrap">
+      <div class="row">
+        <div class="col-md-6 offset-md-1 animate__animated animate__bounceInLeft">
+          <h2 class="text-uppercase">Sua vida é muito preciosa</h2>
+          <p class="mt-5 py-4">Apesar de nossas falhas, nossos fracassos e pecados, Deus nos ama. Não importa o que tenhamos feito, Ele quer nos salvar e ainda quer ser nosso amigo. Ele tem um plano maravilhoso para fazer e restaurar em
+            nossas vidas. Deus conhece nossa triste condição e, até mesmo antes de nascermos, enviou Jesus Cristo para receber, no próprio corpo, o castigo de nossos pecados. Ele nos oferece perdão e nova vida.</p>
+        </div>
+        <div class="col-md-4 animate__animated animate__bounceInRight">
+
+          <form class="card px-3 py-4" onsubmit="sendEmail()">
+            <h3 class="text-center mb-4">Preencha o formulário e baixe o ebook</h3>
+            <div class="form-group mt-5">
+              <input class="form-control mb-1" type="text" id="name" placeholder="Nome">
+              <input class="form-control mb-1" type="text" id="telefone" placeholder="Telefone" maxlength="15">
+              <input class="form-control" type="email" id="email" placeholder="Email">
+            </div>
+            <a class="btn btn-danger text-uppercase" onclick="sendEmail()">Enviar e baixar o ebook</a>
+          </form>
+
+        </div><!--Formulário Leeds-->
+      </div>
+    </div>
+  </section>
+  <section class="doacao-content mt-5 pt-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 text-center">
+          <button class="btn btn-danger w-100 text-uppercase">
+            <a href="https://doacao.saranossaterra.com.br/1523" target="_blank">
+              Deus abençoe sua semente</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="py-4 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./assets/img/logo.png" />
+          <p>&copy; Todos os direitos reservados</p>
+        </div>
+        <div class="col-md-6"></div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
